@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6389EFC818FC591300917B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFC718FC591300917B7B /* Foundation.framework */; };
+		6389EFCA18FC591300917B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFC918FC591300917B7B /* CoreGraphics.framework */; };
+		6389EFCC18FC591300917B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFCB18FC591300917B7B /* UIKit.framework */; };
+		6389EFD218FC591300917B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6389EFD018FC591300917B7B /* InfoPlist.strings */; };
+		6389EFD418FC591300917B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389EFD318FC591300917B7B /* main.m */; };
+		6389EFD818FC591300917B7B /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389EFD718FC591300917B7B /* DKAppDelegate.m */; };
+		6389EFDB18FC591300917B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6389EFD918FC591300917B7B /* Main.storyboard */; };
+		6389EFDE18FC591300917B7B /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389EFDD18FC591300917B7B /* DKViewController.m */; };
+		6389EFE018FC591300917B7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6389EFDF18FC591300917B7B /* Images.xcassets */; };
+		6389EFE718FC591300917B7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFE618FC591300917B7B /* XCTest.framework */; };
+		6389EFE818FC591300917B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFC718FC591300917B7B /* Foundation.framework */; };
+		6389EFE918FC591300917B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFCB18FC591300917B7B /* UIKit.framework */; };
+		6389EFF118FC591300917B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6389EFEF18FC591300917B7B /* InfoPlist.strings */; };
+		6389EFF318FC591300917B7B /* DavidKraftMapKitHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389EFF218FC591300917B7B /* DavidKraftMapKitHomeworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6389EFEA18FC591300917B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6389EFBC18FC591300917B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6389EFC318FC591300917B7B;
+			remoteInfo = DavidKraftMapKitHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6389EFC418FC591300917B7B /* DavidKraftMapKitHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DavidKraftMapKitHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6389EFC718FC591300917B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6389EFC918FC591300917B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6389EFCB18FC591300917B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6389EFCF18FC591300917B7B /* DavidKraftMapKitHomework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DavidKraftMapKitHomework-Info.plist"; sourceTree = "<group>"; };
+		6389EFD118FC591300917B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6389EFD318FC591300917B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6389EFD518FC591300917B7B /* DavidKraftMapKitHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DavidKraftMapKitHomework-Prefix.pch"; sourceTree = "<group>"; };
+		6389EFD618FC591300917B7B /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		6389EFD718FC591300917B7B /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		6389EFDA18FC591300917B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6389EFDC18FC591300917B7B /* DKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		6389EFDD18FC591300917B7B /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		6389EFDF18FC591300917B7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6389EFE518FC591300917B7B /* DavidKraftMapKitHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidKraftMapKitHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6389EFE618FC591300917B7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6389EFEE18FC591300917B7B /* DavidKraftMapKitHomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DavidKraftMapKitHomeworkTests-Info.plist"; sourceTree = "<group>"; };
+		6389EFF018FC591300917B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6389EFF218FC591300917B7B /* DavidKraftMapKitHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidKraftMapKitHomeworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6389EFC118FC591300917B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFCA18FC591300917B7B /* CoreGraphics.framework in Frameworks */,
+				6389EFCC18FC591300917B7B /* UIKit.framework in Frameworks */,
+				6389EFC818FC591300917B7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389EFE218FC591300917B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFE718FC591300917B7B /* XCTest.framework in Frameworks */,
+				6389EFE918FC591300917B7B /* UIKit.framework in Frameworks */,
+				6389EFE818FC591300917B7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6389EFBB18FC591300917B7B = {
+			isa = PBXGroup;
+			children = (
+				6389EFCD18FC591300917B7B /* DavidKraftMapKitHomework */,
+				6389EFEC18FC591300917B7B /* DavidKraftMapKitHomeworkTests */,
+				6389EFC618FC591300917B7B /* Frameworks */,
+				6389EFC518FC591300917B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6389EFC518FC591300917B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFC418FC591300917B7B /* DavidKraftMapKitHomework.app */,
+				6389EFE518FC591300917B7B /* DavidKraftMapKitHomeworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6389EFC618FC591300917B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFC718FC591300917B7B /* Foundation.framework */,
+				6389EFC918FC591300917B7B /* CoreGraphics.framework */,
+				6389EFCB18FC591300917B7B /* UIKit.framework */,
+				6389EFE618FC591300917B7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6389EFCD18FC591300917B7B /* DavidKraftMapKitHomework */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFD618FC591300917B7B /* DKAppDelegate.h */,
+				6389EFD718FC591300917B7B /* DKAppDelegate.m */,
+				6389EFD918FC591300917B7B /* Main.storyboard */,
+				6389EFDC18FC591300917B7B /* DKViewController.h */,
+				6389EFDD18FC591300917B7B /* DKViewController.m */,
+				6389EFDF18FC591300917B7B /* Images.xcassets */,
+				6389EFCE18FC591300917B7B /* Supporting Files */,
+			);
+			path = DavidKraftMapKitHomework;
+			sourceTree = "<group>";
+		};
+		6389EFCE18FC591300917B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFCF18FC591300917B7B /* DavidKraftMapKitHomework-Info.plist */,
+				6389EFD018FC591300917B7B /* InfoPlist.strings */,
+				6389EFD318FC591300917B7B /* main.m */,
+				6389EFD518FC591300917B7B /* DavidKraftMapKitHomework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6389EFEC18FC591300917B7B /* DavidKraftMapKitHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFF218FC591300917B7B /* DavidKraftMapKitHomeworkTests.m */,
+				6389EFED18FC591300917B7B /* Supporting Files */,
+			);
+			path = DavidKraftMapKitHomeworkTests;
+			sourceTree = "<group>";
+		};
+		6389EFED18FC591300917B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6389EFEE18FC591300917B7B /* DavidKraftMapKitHomeworkTests-Info.plist */,
+				6389EFEF18FC591300917B7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6389EFC318FC591300917B7B /* DavidKraftMapKitHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6389EFF618FC591300917B7B /* Build configuration list for PBXNativeTarget "DavidKraftMapKitHomework" */;
+			buildPhases = (
+				6389EFC018FC591300917B7B /* Sources */,
+				6389EFC118FC591300917B7B /* Frameworks */,
+				6389EFC218FC591300917B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DavidKraftMapKitHomework;
+			productName = DavidKraftMapKitHomework;
+			productReference = 6389EFC418FC591300917B7B /* DavidKraftMapKitHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6389EFE418FC591300917B7B /* DavidKraftMapKitHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6389EFF918FC591300917B7B /* Build configuration list for PBXNativeTarget "DavidKraftMapKitHomeworkTests" */;
+			buildPhases = (
+				6389EFE118FC591300917B7B /* Sources */,
+				6389EFE218FC591300917B7B /* Frameworks */,
+				6389EFE318FC591300917B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6389EFEB18FC591300917B7B /* PBXTargetDependency */,
+			);
+			name = DavidKraftMapKitHomeworkTests;
+			productName = DavidKraftMapKitHomeworkTests;
+			productReference = 6389EFE518FC591300917B7B /* DavidKraftMapKitHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6389EFBC18FC591300917B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Kraft";
+				TargetAttributes = {
+					6389EFE418FC591300917B7B = {
+						TestTargetID = 6389EFC318FC591300917B7B;
+					};
+				};
+			};
+			buildConfigurationList = 6389EFBF18FC591300917B7B /* Build configuration list for PBXProject "DavidKraftMapKitHomework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6389EFBB18FC591300917B7B;
+			productRefGroup = 6389EFC518FC591300917B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6389EFC318FC591300917B7B /* DavidKraftMapKitHomework */,
+				6389EFE418FC591300917B7B /* DavidKraftMapKitHomeworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6389EFC218FC591300917B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFE018FC591300917B7B /* Images.xcassets in Resources */,
+				6389EFD218FC591300917B7B /* InfoPlist.strings in Resources */,
+				6389EFDB18FC591300917B7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389EFE318FC591300917B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFF118FC591300917B7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6389EFC018FC591300917B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFD418FC591300917B7B /* main.m in Sources */,
+				6389EFDE18FC591300917B7B /* DKViewController.m in Sources */,
+				6389EFD818FC591300917B7B /* DKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389EFE118FC591300917B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389EFF318FC591300917B7B /* DavidKraftMapKitHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6389EFEB18FC591300917B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6389EFC318FC591300917B7B /* DavidKraftMapKitHomework */;
+			targetProxy = 6389EFEA18FC591300917B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6389EFD018FC591300917B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389EFD118FC591300917B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6389EFD918FC591300917B7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389EFDA18FC591300917B7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6389EFEF18FC591300917B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389EFF018FC591300917B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6389EFF418FC591300917B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6389EFF518FC591300917B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6389EFF718FC591300917B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Prefix.pch";
+				INFOPLIST_FILE = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6389EFF818FC591300917B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Prefix.pch";
+				INFOPLIST_FILE = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6389EFFA18FC591300917B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DavidKraftMapKitHomework.app/DavidKraftMapKitHomework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DavidKraftMapKitHomeworkTests/DavidKraftMapKitHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6389EFFB18FC591300917B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DavidKraftMapKitHomework.app/DavidKraftMapKitHomework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKraftMapKitHomework/DavidKraftMapKitHomework-Prefix.pch";
+				INFOPLIST_FILE = "DavidKraftMapKitHomeworkTests/DavidKraftMapKitHomeworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6389EFBF18FC591300917B7B /* Build configuration list for PBXProject "DavidKraftMapKitHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6389EFF418FC591300917B7B /* Debug */,
+				6389EFF518FC591300917B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6389EFF618FC591300917B7B /* Build configuration list for PBXNativeTarget "DavidKraftMapKitHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6389EFF718FC591300917B7B /* Debug */,
+				6389EFF818FC591300917B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6389EFF918FC591300917B7B /* Build configuration list for PBXNativeTarget "DavidKraftMapKitHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6389EFFA18FC591300917B7B /* Debug */,
+				6389EFFB18FC591300917B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6389EFBC18FC591300917B7B /* Project object */;
+}
