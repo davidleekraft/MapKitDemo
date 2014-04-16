@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface DKViewController : UIViewController
+@interface DKViewController : UIViewController <MKMapViewDelegate>
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIButton *nicksButton;
+@property (weak, nonatomic) IBOutlet UIButton *dossettButton;
+@property (weak, nonatomic) IBOutlet UIButton *samwilsonButton;
+@property (weak, nonatomic) IBOutlet UIButton *culpButton;
+@property (weak, nonatomic) IBOutlet UIButton *libraryButton;
+@property (weak, nonatomic) IBOutlet UIButton *cpaButton;
 
 @end

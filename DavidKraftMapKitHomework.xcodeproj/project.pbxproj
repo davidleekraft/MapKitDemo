@@ -21,6 +21,7 @@
 		6389EFE918FC591300917B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFCB18FC591300917B7B /* UIKit.framework */; };
 		6389EFF118FC591300917B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6389EFEF18FC591300917B7B /* InfoPlist.strings */; };
 		6389EFF318FC591300917B7B /* DavidKraftMapKitHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389EFF218FC591300917B7B /* DavidKraftMapKitHomeworkTests.m */; };
+		6389EFFD18FC592700917B7B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6389EFFC18FC592700917B7B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6389EFEE18FC591300917B7B /* DavidKraftMapKitHomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DavidKraftMapKitHomeworkTests-Info.plist"; sourceTree = "<group>"; };
 		6389EFF018FC591300917B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6389EFF218FC591300917B7B /* DavidKraftMapKitHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidKraftMapKitHomeworkTests.m; sourceTree = "<group>"; };
+		6389EFFC18FC592700917B7B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6389EFFD18FC592700917B7B /* MapKit.framework in Frameworks */,
 				6389EFCA18FC591300917B7B /* CoreGraphics.framework in Frameworks */,
 				6389EFCC18FC591300917B7B /* UIKit.framework in Frameworks */,
 				6389EFC818FC591300917B7B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		6389EFC618FC591300917B7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6389EFFC18FC592700917B7B /* MapKit.framework */,
 				6389EFC718FC591300917B7B /* Foundation.framework */,
 				6389EFC918FC591300917B7B /* CoreGraphics.framework */,
 				6389EFCB18FC591300917B7B /* UIKit.framework */,
